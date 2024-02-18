@@ -27,9 +27,17 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .page-header-container {
   display: flex;
   align-items: center;
+}
+img {
+  display: block;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -105,8 +113,6 @@ body {
 .section-first-container {
   padding-top: 188px;
   padding-bottom: 188px;
-  padding-left: 331px;
-  padding-right: 331px;
 }
 
 .section-first {
@@ -136,10 +142,17 @@ body {
   border: none;
   padding-right: 32px;
   padding-left: 32px;
+  display: block;
 }
 
-.Objectives {
+.section-second {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.objectives {
   display: flex;
+  gap: 24px;
 }
 
 .page-button:hover,
