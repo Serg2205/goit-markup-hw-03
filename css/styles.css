@@ -111,12 +111,12 @@ body {
 }
 
 .section-first-container {
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 
 .section-first {
   background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .title {
   max-width: 496px;
