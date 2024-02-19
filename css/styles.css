@@ -154,7 +154,8 @@ body {
   padding-bottom: 120px;
 }
 
-. .visually-hidden {
+.visually-hidden {
+  position: absolute;
 }
 
 .objectives {
@@ -260,6 +261,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
+  column-gap: 24px;
 }
 
 .our-portfolio-item {
@@ -279,6 +281,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .text-services {
   font-size: 16px;
